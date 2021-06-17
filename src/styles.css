@@ -1,0 +1,60 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 20px;
+}
+input[type="number"] {
+  width: 90%;
+  height: 2rem;
+  margin: 1rem 0;
+}
+#time-table {
+  display: flex;
+}
+.row-info {
+  width: 10%;
+}
+.row-info tr {
+  display: flex;
+  flex-direction: column;
+}
+.row-info th {
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+.row-info th:first-child {
+  margin-bottom: 0px;
+  line-height: 24px;
+}
+table {
+  width: 80%;
+  border: 1px solid #000;
+  margin-bottom: 20px;
+}
+
+tr {
+  border-spacing: 0;
+}
+td {
+  height: 18px!;
+}
+td,
+th {
+  padding: 0;
+  min-width: 100px;
+  border-spacing: 0;
+}
+#legend {
+  display: flex;
+}
+.percent-calc {
+  width: 7.69%;
+}
